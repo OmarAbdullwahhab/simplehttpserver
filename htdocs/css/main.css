@@ -15,4 +15,10 @@ h1 {
     color:white;
     font-weight: bolder;
     font-family: 'Times New Roman';
+    font-size: 46px;
+}
+a {
+    color:yellow;
+    font-family: 'Times New Roman';
+    font-size: 32px;
 }

@@ -23,6 +23,7 @@ public class SimpleHTTPServer {
         }
         System.out.println("Welcome to SimpleHTTP Server");
         ServerSocket server = new ServerSocket(9090);
+        System.out.println("Server started on port: " + server.getLocalPort());
         RequestHandler handler = new RequestHandler();
         while (true) {
             Socket client = server.accept();
