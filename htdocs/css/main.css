@@ -1,0 +1,18 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Mar 31, 2023, 2:03:53 AM
+    Author     : omar
+*/
+
+html {
+    background-color: darkblue;
+    text-align: center;
+}
+h1 {
+    color:white;
+    font-weight: bolder;
+    font-family: 'Times New Roman';
+}
