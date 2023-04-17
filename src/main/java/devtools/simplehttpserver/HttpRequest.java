@@ -5,7 +5,6 @@
 package devtools.simplehttpserver;
 
 import java.io.BufferedReader;
-import java.io.IOException;
 import java.io.StringReader;
 
 /**
@@ -37,7 +36,8 @@ public class HttpRequest {
 
         return version;
     }
-//GET /css/main.css HTTP/1.1
+    
+    //GET /css/main.css HTTP/1.1
     public String getMethod() {
         var method = "";
         try {

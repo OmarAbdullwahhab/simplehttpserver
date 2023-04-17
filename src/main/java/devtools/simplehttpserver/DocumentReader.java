@@ -19,7 +19,7 @@ import java.util.logging.Logger;
 public class DocumentReader {
 
 
-            //css/main.css //js/index.js
+    //css/main.css //js/index.js
     public String readDocument(String ext,String... name) {
         //test.html
         StringBuilder sb = new StringBuilder();
